@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ImagenesService } from './services/imagenes.service';
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,4 @@ import { ImagenesService } from './services/imagenes.service';
 })
 export class AppComponent {
   title = 'RedSocial';
-  constructor(public imagenService: ImagenesService){
-    
-  }
 }
